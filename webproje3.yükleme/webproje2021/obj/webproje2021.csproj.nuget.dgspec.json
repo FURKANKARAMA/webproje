@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Acer\\Desktop\\webproje-main\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj": {}
+    "C:\\Users\\vmain\\OneDrive\\Masaüstü\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Acer\\Desktop\\webproje-main\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj": {
+    "C:\\Users\\vmain\\OneDrive\\Masaüstü\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Acer\\Desktop\\webproje-main\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj",
+        "projectUniqueName": "C:\\Users\\vmain\\OneDrive\\Masaüstü\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj",
         "projectName": "webproje2021",
-        "projectPath": "C:\\Users\\Acer\\Desktop\\webproje-main\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj",
-        "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Acer\\Desktop\\webproje-main\\webproje-main\\webproje3.yükleme\\webproje2021\\obj\\",
+        "projectPath": "C:\\Users\\vmain\\OneDrive\\Masaüstü\\webproje-main\\webproje3.yükleme\\webproje2021\\webproje2021.csproj",
+        "packagesPath": "C:\\Users\\vmain\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vmain\\OneDrive\\Masaüstü\\webproje-main\\webproje3.yükleme\\webproje2021\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vmain\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.12, )"
@@ -52,6 +53,12 @@
               "version": "[5.0.12, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.12, )"
             },
