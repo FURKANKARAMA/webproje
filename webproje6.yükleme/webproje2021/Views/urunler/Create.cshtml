@@ -1,0 +1,43 @@
+﻿@model webproje2021.Models.urunler
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>urunler</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="urunadi" class="control-label"></label>
+                <input asp-for="urunadi" class="form-control" />
+                <span asp-validation-for="urunadi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="kalorisi" class="control-label"></label>
+                <input asp-for="kalorisi" class="form-control" />
+                <span asp-validation-for="kalorisi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fiyati" class="control-label"></label>
+                <input asp-for="fiyati" class="form-control" />
+                <span asp-validation-for="fiyati" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
